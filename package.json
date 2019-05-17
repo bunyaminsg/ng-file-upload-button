@@ -1,6 +1,6 @@
 {
   "name": "ng-file-upload-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "File uploader for Angular2+",
   "main": "index.ts",
   "scripts": {
