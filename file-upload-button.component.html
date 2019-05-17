@@ -1,0 +1,2 @@
+<input #ngFileInput type="file" id="f-in" style="display: none !important;" (change)="uploadFile()">
+<button [ngClass]="btnClass" [ngStyle]="btnStyle" (click)="ngFileInput.click()"><ng-content></ng-content></button>
