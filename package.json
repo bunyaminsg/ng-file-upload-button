@@ -1,0 +1,25 @@
+{
+  "name": "ng-file-upload-button",
+  "version": "1.0.0",
+  "description": "File uploader for Angular2+",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bunyaminsg/ng-file-upload-button.git"
+  },
+  "keywords": [
+    "file",
+    "upload",
+    "angular",
+    "ng"
+  ],
+  "author": "Bünyamin Sarıgül",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bunyaminsg/ng-file-upload-button/issues"
+  },
+  "homepage": "https://github.com/bunyaminsg/ng-file-upload-button#readme"
+}

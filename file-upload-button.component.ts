@@ -1,4 +1,5 @@
-import {AfterViewInit, Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {AfterViewInit, Component, EventEmitter, Input, NgModule, OnInit, Output} from '@angular/core';
+
 
 export const FUB_CUSTOM_ERRORS = {
   FILE_SIZE_LIMIT_EXCEEDED: 'File Size Limit Exceeded'
@@ -87,3 +88,15 @@ export class FileUploadButtonComponent implements OnInit, AfterViewInit {
     this.error.emit(undefined);
   }
 }
+
+@NgModule({
+  declarations: [
+    FileUploadButtonComponent
+  ],
+  providers: [],
+  exports: [
+    FileUploadButtonComponent
+  ]
+})
+export class FileUploadButtonModule { }
+
