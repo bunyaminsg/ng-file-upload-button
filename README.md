@@ -14,7 +14,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
-import { FileUploadButtonComponent } from 'file-upload-button';
+import { FileUploadButtonComponent } from 'ng-file-upload-button';
 
 
 @NgModule({

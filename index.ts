@@ -1,1 +1,1 @@
-export * from './file-upload-button.component';
+export { FileUploadButtonComponent } from './file-upload-button.component';
